@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-5xl font-semibold">Radhakrishna Kunchala</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-900 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-semibold mb-4">Hello, I'm a Java Full Stack Developer</h1>
+            <p class="text-lg">Passionate about coding, web development, and problem-solving.</p>
+        </div>
+    </section>
+<!-- About Section -->
+<section id="about" class="py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/4 mb-4 md:mb-0">
+                <img src="images/profile.JPG" alt="Profile Image" class="w-full rounded-lg shadow-md">
+            </div>
+            <div class="md:w-1/0">
+        <p class="text-gray-700 md:ml-6">
+            Hello! I'm Radhakrishna, a passionate and motivated Full Stack Java Developer with a strong foundation in programming and web development. I'm excited about creating dynamic and user-friendly web applications that deliver a seamless user experience.
+        </p>
+        <p class="text-gray-700 md:ml-6">
+            I've recently graduated with a degree in Electronics & Communication Engineering and have honed my skills in Java programming, HTML, CSS, and JavaScript through hands-on projects and coursework. My curiosity and eagerness to learn have led me to explore various frameworks and libraries such as Spring Boot and React, which are essential tools in modern Full Stack development.
+        </p>
+        <p class="text-gray-700 md:ml-6">
+            My journey in programming started with a fascination for problem-solving, and I've enjoyed translating real-world challenges into elegant code solutions. With a keen eye for detail and a passion for clean code, I aim to create applications that not only work flawlessly but are also maintainable and scalable.
+        </p>
+        <p class="text-gray-700 md:ml-6">
+            As I continue to grow in my skills and experience, I'm eager to contribute to meaningful projects and collaborate with fellow developers. I believe that every line of code I write is a step forward in my journey to becoming an accomplished Full Stack Java Developer, and I'm excited to bring my dedication and enthusiasm to your development team.
+        </p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-12 bg-gray-100">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">Programming Languages</h3>
+                <ul class="list-disc pl-6">
+                    <li>Core Java</li>
+                    <li>Advance Java</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">Front-end</h3>
+                <ul class="list-disc pl-6">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">Frameworks & Libraries</h3>
+                <ul class="list-disc pl-6">
+                    <li>Spring </li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">DataBases</h3>
+                <ul class="list-disc pl-6">
+                    <li>SQL </li>
+                    <li>PL SQL Basics</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">Version Control</h3>
+                <ul class="list-disc pl-6">
+                    <li> Github</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="text-lg font-semibold mb-2">Tools</h3>
+                <ul class="list-disc pl-6">
+                    <li>Eclipse</li>
+                    <li>Vs Code</li>
+                </ul>
+            </div>
+            <!-- Add more skill cards similarly -->
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-12 bg-white">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Project cards will be added here dynamically with JavaScript -->
+        </div>
+    </div>
+</section>
+
+
+   
+    <!-- Contact Me Section -->
+<section id="contact-me" class="py-12 bg-gray-100">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2">Get in Touch</h3>
+                <form id="contact-form">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-semibold mb-1">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-semibold mb-1">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-semibold mb-1">Message</label>
+                        <textarea id="message" name="message" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300">Send Message</button>
+                </form>
+            </div>
+            <div id="contact-info" class="bg-white p-6 rounded-lg shadow-md">
+                <!-- JavaScript will populate the contact information here -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; <span id="footer-year"></span> Radhakrishna Kunchala. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
